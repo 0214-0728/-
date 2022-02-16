@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <title>Introducing Mark - NCT127</title>
+  <meta charset="utf-8">
+  <style>
+    body {
+      margin: 0;
+    }
+    a {color:black;
+      text-decoration: none;}
+
+    h1 {
+      font-sie:45px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin:0;
+      padding: 20px;
+    }
+
+    ol {
+      border-right: 1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+
+    #grid {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol {
+      padding-left: 33px;
+    }
+
+    #grid #article {
+      padding-left: 25px;
+    }
+    @media (max-width:800px) {
+      #grid {
+        display: block;
+      }
+      ol {
+        border-right: none;
+      }
+      h1 {
+        border-bottom: none;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+<h1><a href="index.html">NCT</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">NCT U</a></li>
+      <li><a href="2.html">NCT127</a></li>
+      <li><a href="3.html">NCT Dream</a></li>
+    </ol>
+    <div id="article">
+      <h2>NCT127</h2>
+      엔시티 팀 중 <a href="https://namu.wiki/w/서울특별시" target="_blank" title="NAMUWIKI of Seoul">서울</a>을 중심으로 활동하는 팀이다.
+      <p>그들은 최근 <strong>빌보드100차트</strong> 안에 링크되었으며 상승세를 보이고 있다.</p>
+    </div>
+  </div>
+  <img src="NCT127.jpg" width="100%">
+</body>
+</html>
